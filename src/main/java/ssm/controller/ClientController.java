@@ -66,7 +66,7 @@ public class ClientController {
     }
     @RequestMapping("/updateManager")
     public String updateManager(HttpServletRequest request, Model model,Manager manager){
-        System.out.println("git");
+        
 
 
         this.managerService.updateManagerById(request,model,manager);
